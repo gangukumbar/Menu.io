@@ -1,0 +1,54 @@
+body{
+	background-color: white;
+}
+h1{
+	color:solid black;
+}
+
+p{
+	background-color: gray;
+	font-color:black;
+}
+
+@media only screen and (min-width: 992px){
+	.box{
+		width: 31%;
+		min-height: 50px;
+		background-color: gray;
+		float: left;
+		margin:6px;
+		border: 1px solid black;
+	}
+	.floatbox{
+		float:right;
+		width:100px;
+		height:30px;
+		text-align:center;
+		font-weight: bold;
+		background:1px;
+		padding:2px 2px 1px 1px;
+		margin-bottom: 2px;
+		margin-left: 2px;
+	}
+
+
+.pink{
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.red{
+	background-color: red;
+	border: 1px solid black;
+
+}
+
+.yellow{
+	background-color: yellow;
+	border: 1px solid black;
+
+}
+
+p{
+	padding:10px;
+}
